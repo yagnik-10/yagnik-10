@@ -4,7 +4,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yagnikpavagadhi)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=portfolio&logoColor=white)](https://www.yagnikpavagadhi.com)
 
-<<<<<<< HEAD
 <!-- Put both PNGs in /assets -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
@@ -34,13 +33,9 @@ I am a Graduate Student at Northeastern University, pursuing a Masters in Inform
 - **Exploring:** LangGraph agents + structured output validation
 <!-- NOW_NEXT:END -->
 
-=======
->>>>>>> 630cacebae162cf30f3c3b23e6b3a79e845acfc2
 ### About
-
 I'm an AI/ML engineer and software developer with a passion for building intelligent systems and scalable applications. Currently pursuing my Master's in Information Systems at Northeastern University, I specialize in prompt engineering, machine learning, and full-stack development. I enjoy creating systems that think, learn, and solve real-world problems.
 
-<<<<<<< HEAD
 ### Pick a path
 - I like **voice UX** → [IVR Citizen Support](https://github.com/yagnik-10/AI-agent-for-Public-Service-Navigation)
 - I like **infra** → [Terraform IaC modules](#)
@@ -194,8 +189,3 @@ const AnalyticsDashboard = () => {
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D4FF&center=true&vCenter=true&width=720&lines=Open+to+AI%2FML+Engineering+%2C+Software+Engineering+%2C+and+Data+Engineering+roles" alt="footer" />
 </div>
-=======
-- 💬 Lets connect and talk about system architecture, the future of AI, and everything in between
-- 😄 Pronouns: He/Him
-- 👾 Fun fact: Everything that has been or could be written/said already exists in the [Library of Babel](https://libraryofbabel.info)
->>>>>>> 630cacebae162cf30f3c3b23e6b3a79e845acfc2
