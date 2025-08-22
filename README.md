@@ -4,6 +4,13 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yagnikpavagadhi)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=portfolio&logoColor=white)](https://www.yagnikpavagadhi.com)
 
+<!-- Put both PNGs in /assets -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
+  <img alt="Yagnik — AI/ML Engineer" src="assets/banner-light.png">
+</picture>
+
 I am a Graduate Student at Northeastern University, pursuing a Masters in Information Systems, who is passionate about Artificial Intelligence, Machine Learning, and building intelligent systems. I love to learn and contribute in any and every possible way.
 
 📭 Reach out to connect about AI/ML, Prompt Engineering, Full-Stack Development, Python, and Java
@@ -19,8 +26,49 @@ I am a Graduate Student at Northeastern University, pursuing a Masters in Inform
 
 ---
 
+## Now / Next
+<!-- NOW_NEXT:START -->
+- **Now:** Polishing IVR demo (voice + chat) with CRM hooks
+- **Next:** Cost & latency benchmarking for RAG routing
+- **Exploring:** LangGraph agents + structured output validation
+<!-- NOW_NEXT:END -->
+
 ### About
 I'm an AI/ML engineer and software developer with a passion for building intelligent systems and scalable applications. Currently pursuing my Master's in Information Systems at Northeastern University, I specialize in prompt engineering, machine learning, and full-stack development. I enjoy creating systems that think, learn, and solve real-world problems.
+
+### Pick a path
+- I like **voice UX** → [IVR Citizen Support](https://github.com/yagnik-10/AI-agent-for-Public-Service-Navigation)
+- I like **infra** → [Terraform IaC modules](#)
+- I like **ML** → [RAG + evaluation toolkit](#)
+- I like **dashboards** → [Observability + tracing](#)
+
+### Tech Radar
+<details><summary>✅ Adopt</summary>
+
+- **FastAPI**, **Terraform**, **AWS Lambda/ECS**
+- **Amazon Kendra** for enterprise search
+- **Bedrock** for managed LLM access
+</details>
+
+<details><summary>🧪 Trial</summary>
+
+- **LangGraph** for multi-step agents
+- **LiteLLM** as an LLM router
+- **Guardrails / JSON schema validation** for LLM outputs
+</details>
+
+<details><summary>👀 Assess</summary>
+
+- **LoRA adapters** for small domain adapts
+- **Vector DBs**: Weaviate vs. Chroma for small workloads
+- **RAG triage** (FAQ vs. open-ended vs. CRM)
+</details>
+
+<details><summary>⛔ Avoid (for now)</summary>
+
+- Direct **DB writes via LLM**
+- Unbounded **function calling** without budget/guardrails
+</details>
 
 ### Focus
 - **AI/ML & Data Science**: Prompt Engineering, LLMs, PyTorch, TensorFlow, NLP, Computer Vision
@@ -64,6 +112,11 @@ I'm an AI/ML engineer and software developer with a passion for building intelli
 
 ### Publications
 - **Driver Drowsiness Detection Using AI** — International Journal of All Research Education and Scientific Methods (IJARESM)
+
+## 💬 Questions / Collab
+Have an idea or want to jam on architecture?
+
+→ [Open a discussion](../../discussions/new) or [file an issue](../../issues/new/choose)
 
 ---
 

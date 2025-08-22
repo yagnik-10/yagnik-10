@@ -1,0 +1,51 @@
+name: Update Now/Next
+on:
+  schedule:
+    - cron: "12 13 * * *"   # daily ~9:12am ET
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: python - <<'PY'
+            import os, json, pathlib, random, time
+            root = pathlib.Path(".")
+            # Optional: rotate from a list if you prefer variety
+            data = json.loads((root / "data" / "now.json").read_text())
+            (root / "scripts").mkdir(exist_ok=True)
+            (root / "scripts" / "update_readme.py").write_text("""import json, re, pathlib
+root = pathlib.Path(__file__).resolve().parents[1]
+readme = root / "README.md"
+data = json.loads((root / "data" / "now.json").read_text())
+
+block = (
+    "- **Now:** " + data["now"] + "\n"
+    "- **Next:** " + data["next"] + "\n"
+    "- **Exploring:** " + data["exploring"]
+)
+
+txt = readme.read_text()
+pattern = r"(<!-- NOW_NEXT:START -->)(.*?)(<!-- NOW_NEXT:END -->)"
+new = re.sub(pattern, r"\1\n" + block + r"\n\3", txt, flags=re.S)
+readme.write_text(new)
+print("Updated Now/Next/Exploring.")""")
+        shell: bash
+      - name: Restore real script
+        run: |
+          git checkout -- scripts/update_readme.py || true
+      - run: python scripts/update_readme.py
+      - run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: auto-update Now/Next"
+            git push
+          else
+            echo "No changes."
