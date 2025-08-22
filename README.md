@@ -41,8 +41,4 @@ I'm an AI/ML engineer and software developer with a passion for building intelli
 
 - Direct **DB writes via LLM**
 - Unbounded **function calling** without budget/guardrails
-<<<<<<< HEAD
 </details>
-=======
-</details>
->>>>>>> e72059cfeed76cc4b296d86cad9fbf63dc5a6e12
