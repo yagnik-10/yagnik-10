@@ -42,11 +42,3 @@ I'm an AI/ML engineer and software developer with a passion for building intelli
 - Direct **DB writes via LLM**
 - Unbounded **function calling** without budget/guardrails
 </details>
-
-
-
----
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D4FF&center=true&vCenter=true&width=720&lines=Open+to+AI%2FML+Engineering+%2C+Software+Engineering+%2C+and+Data+Engineering+roles" alt="footer" />
-</div>
