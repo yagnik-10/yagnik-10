@@ -1,0 +1,85 @@
+{
+  "update_frequency_days": 1,
+  "min_changes_for_update": 3,
+  "change_threshold_percentage": 5.0,
+  "sources": {
+    "github": {
+      "enabled": true,
+      "min_stars": 100,
+      "max_repos": 50,
+      "time_period": "7d"
+    },
+    "stackoverflow": {
+      "enabled": true,
+      "max_tags": 30
+    }
+  },
+  "your_interests": {
+    "ai_ml": [
+      "LangChain", "HuggingFace", "PyTorch", "TensorFlow",
+      "OpenAI", "Anthropic", "Claude", "Gemini", "Llama",
+      "RAG", "Vector Databases", "Fine-tuning", "Prompt Engineering"
+    ],
+    "backend": [
+      "FastAPI", "Django", "Spring Boot", "Node.js",
+      "Go", "Rust", "GraphQL", "gRPC", "Microservices"
+    ],
+    "cloud": [
+      "AWS", "GCP", "Azure", "Docker", "Kubernetes",
+      "Terraform", "Serverless", "Lambda", "ECS", "EKS"
+    ],
+    "databases": [
+      "PostgreSQL", "MongoDB", "Redis", "Pinecone",
+      "Weaviate", "Chroma", "Milvus", "Qdrant", "Elasticsearch"
+    ],
+    "frontend": [
+      "React", "Vue", "Svelte", "Next.js", "TypeScript",
+      "Tailwind", "Storybook", "Testing Library"
+    ]
+  },
+  "radar_categories": {
+    "adopt": {
+      "description": "Technologies you're actively using and recommend",
+      "max_items": 5,
+      "priority": "high"
+    },
+    "trial": {
+      "description": "Technologies you're experimenting with",
+      "max_items": 4,
+      "priority": "medium"
+    },
+    "assess": {
+      "description": "Technologies you're monitoring and considering",
+      "max_items": 4,
+      "priority": "low"
+    },
+    "avoid": {
+      "description": "Technologies you're avoiding for now",
+      "max_items": 3,
+      "priority": "low"
+    }
+  },
+  "categorization_rules": {
+    "ai_ml_keywords": [
+      "ai", "ml", "machine learning", "deep learning", "llm",
+      "gpt", "bert", "transformer", "langchain", "huggingface",
+      "rag", "vector", "embedding", "fine-tuning"
+    ],
+    "cloud_keywords": [
+      "kubernetes", "docker", "terraform", "aws", "gcp",
+      "azure", "serverless", "microservices", "lambda", "ecs"
+    ],
+    "database_keywords": [
+      "postgresql", "mongodb", "redis", "pinecone", "weaviate",
+      "chroma", "vector", "database", "nosql", "graphql"
+    ],
+    "language_keywords": [
+      "python", "javascript", "typescript", "java", "go",
+      "rust", "c++", "c#", "kotlin", "scala"
+    ],
+    "framework_keywords": [
+      "react", "vue", "angular", "fastapi", "django",
+      "spring", "express", "next.js", "nuxt", "sveltekit"
+    ]
+  }
+}
