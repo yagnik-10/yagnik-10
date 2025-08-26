@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="./assets/Banner.gif" alt="Banner" width="100%">
+  <img src="https://media.giphy.com/media/1Nzq2od8Zz3aQYqfFi/giphy.gif" alt="Banner" width="100%">
 </p>
 
 
-
-# Hi there, Yagnik here
+<h1 align="center">Hi there, Yagnik here</h1>
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yagnik.pavagadhi06@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yagnikpavagadhi)
