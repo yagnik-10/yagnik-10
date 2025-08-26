@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/DGsDLr9nyz2LkVgKFs/giphy.gif" alt="Banner" width="100%">
+</p>
+
+
 # Hi there, Yagnik here
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yagnik.pavagadhi06@gmail.com)
