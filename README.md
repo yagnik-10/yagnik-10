@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/DGsDLr9nyz2LkVgKFs/giphy.gif" alt="Banner" width="100%">
+  <img src="./assets/Banner.gif" alt="Banner" width="100%">
 </p>
+
 
 
 # Hi there, Yagnik here
